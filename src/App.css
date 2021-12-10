@@ -1,0 +1,33 @@
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background: #0e1538;
+}
+.row-1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+.button-box {
+    display: flex;
+    flex: 5;
+    justify-content: center;
+}
+.loading-box {
+    display: flex;
+    flex: 5;
+    justify-content: center;
+}
+/* .footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+} */
